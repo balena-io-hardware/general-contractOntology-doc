@@ -1,0 +1,39 @@
+slug: balena-fin
+version: 1
+type: hw.sbc (??? - or is it a carrier board ;P)
+name: balena fin
+capabilities:
+  - 
+  -
+  -
+requirements:
+  -
+  -
+  -
+
+
+
+
+
+
+
+
+
+
+
+
+typedef:
+  usb:
+    port: A
+    version: 3.0 
+
+  power: 
+    type: object
+    properties:
+      voltage: 
+        type: integer
+      current:
+        type: integer
+      connector:
+        type: enum
+        values: [usb, barrel jack, phoenix]

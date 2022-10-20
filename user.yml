@@ -1,0 +1,14 @@
+slug: user
+version: 1
+type: misc.user
+name: user xyz
+capabilities:
+  - main
+  -
+  -
+requirements:
+  -
+  -
+  -
+
+

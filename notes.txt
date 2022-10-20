@@ -1,0 +1,36 @@
+Where to start?
+
+"I have an application/deployment, it requires X - give me an sbc that does it" - question asked to an oracle (all knowing entity)
+"We reserve the right to disregard specifics of customer requests"
+
+"customer is offered selection of requirements for their application (not just the 'app' but the 'deployment') - we must be able to provide a list of things that fulfill that request"
+--- eg. form that allows selection from discrete list of options, defined by us
+
+"relatively flat ontology" - 
+- hdmi example - broad capability of "hdmi" - however if requirements start popping up for HDMI 1.2, it can be added as a new capability
+
+"concept of user (or order form?) as a contract"
+- user has capabilities such as 'mains voltage'
+- must evaluate to zero remaining requirements
+
+
+example:
+
+
+
+Questions
+-- does the "type" field force a validation against the type definition
+
+SBC:
+- CPU arch [ armv7, aarch64, x86 ]
+- Display out [ hdmi, mini hdmi, DSI (usb adapters)]
+- Display in [CSI, (usb adapters)]
+- USB???
+    - [2.0, 3.0, usb A, B, C, ... ]
+- Storage [ sd, emmc, network? ]
+- Networking [ none, wifi, ethernet, cellular ]
+
+
+
+
+Display device:
